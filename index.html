@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <center>
+        <h2>Register</h2>
+        <form action="/HTML/app.py" method="post">
+            <label for="first-name">First
+                Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="first-name" placeholder="Enter your first name">
+            <br><br>
+            <label for="last-name">Last
+                Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="last-name" placeholder="Enter your last name">
+            <br><br>
+            <label for="father-name">Father's
+                Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="father-name" placeholder="Enter your father's name">
+            <br><br>
+            <label for="mother-name">Mother's
+                Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="mother-name" placeholder="Enter your mother's name">
+            <br><br>
+            <label for="dob">Date of Birth:&nbsp;</label>
+            <input type="date" name="dob">
+            <br><br>
+            <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="email" placeholder="Enter your email">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <label
+                for="mobile">Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number">
+            <br><br>
+            <label
+                for="address">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+            <br><br>
+            <label for="hobbies">Hobbies:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="hobbies">
+                <option value="">Select a hobby</option>
+                <option value="reading">Reading</option>
+                <option value="cooking">Cooking</option>
+                <option value="sports">Sports</option>
+                <option value="music">Music</option>
+                <!-- Add more hobbies as needed -->
+            </select>
+            <br><br>
+            <label for="state-district-pincode">State, District,
+                Pincode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="state-district-pincode">
+                <option value="">Select your location</option>
+                <option value="state1">U.P., Lucknow, Pincode 226024</option>
+                <option value="state2">State 2, District B, Pincode 789012</option>
+                <!-- Add more locations as needed -->
+            </select>
+            <br><br>
+            <button type="submit">Register</button>
+        </form>
+    </center>
+</body>
+
+</html>
